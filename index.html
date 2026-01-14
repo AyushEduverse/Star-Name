@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starverse</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <!-- Page 1 -->
+        <section class="page active" id="page-input">
+            <h1>Enter Your Name</h1>
+            <p class="subtitle">Begin your journey into Starverse</p>
+            <input type="text" id="username" placeholder="Your name" />
+            <button onclick="goToWelcome()">Continue</button>
+        </section>
+
+        <!-- Page 2 -->
+        <section class="page" id="page-welcome">
+            <h1 id="welcome-text"></h1>
+            <p class="subtitle">The universe awaits you</p>
+            <a href="https://example.com" class="link-btn">Enter Starverse</a>
+        </section>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
