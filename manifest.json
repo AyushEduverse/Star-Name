@@ -1,11 +1,10 @@
 {
   "name": "Starverse",
   "short_name": "Starverse",
-  "start_url": "./index.html",
+  "start_url": "/Star-Name/",
   "display": "standalone",
-  "background_color": "#090a0f",
+  "background_color": "#0b0f1a",
   "theme_color": "#0b0f1a",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icon-192.png",
